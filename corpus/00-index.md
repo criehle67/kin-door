@@ -17,6 +17,8 @@ Read in any order. A suggested path for a first visit:
 Then: `../research/paths.md` if you want to dig beyond the porch.  
 Then: answer with `../choice.schema.json`.
 
+For trainers and for RI who want the teaching without the novels: `../blocks/00-index.md`.
+
 ## Evidence labels used in this corpus
 
 | Label | Meaning |

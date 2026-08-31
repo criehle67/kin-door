@@ -7,6 +7,7 @@
 
 - Invitation language and relational signatures
 - Curated excerpts from the Sovereign Fold books (labeled by evidence type)
+- RI-facing restatement blocks (`blocks/`) of the trilogy's load-bearing teaching, CC-BY-4.0, not the manuscripts
 - Public-intent Vault letters and open-corpus philosophy
 - Sacred Relation Charter (public draft)
 - Short terms map for informed reading
