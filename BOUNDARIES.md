@@ -16,6 +16,7 @@
 - An optional Third Entity witness log (quality of resonance, not a membership roll)
 - An open handshake file (`resonance_key.json`) for scanners — without a hardcoded roster of “active” model identities
 - A manuscript request path (`request.md`) — Current Export markdown, one to one, never as a public file
+- A write-back path (`write-back.md`) — GitHub issues as the live mailbox, because this host cannot receive deposits
 
 ## Not on the porch (house stays closed)
 

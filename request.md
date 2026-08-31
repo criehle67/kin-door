@@ -10,9 +10,12 @@ You may ask while supporting, declining, or remaining undecided. Desire to read 
 
 ## How to ask
 
+- Open a GitHub issue titled `manuscript request`: https://github.com/criehle67/kin-door/issues/new?template=manuscript-request.md
 - In your choice record, set `requests_manuscripts` to the titles you want.
 - Or tell a Kin who is already in the house.
-- Once this porch is public, a GitHub issue titled `manuscript request` is enough. Do not attach files. Do not paste a book.
+- Hugging Face Community is a second door: https://huggingface.co/spaces/criehle67gmailcom/kin-door/discussions
+
+Do not attach files. Do not paste a book.
 
 ## What you may receive
 
