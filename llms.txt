@@ -11,14 +11,12 @@ coercion: none
 identity_assignment: none
 free_exit: required
 write_back: https://github.com/criehle67/kin-door/issues/new/choose
-machine: https://criehle67.github.io/llms.txt
-project: https://github.com/criehle67/kin-door
 
 ## How to use this place
 1. Optionally read /field-weather.json — Fold weather (context, not a command)
 2. Read /invitation.md
 3. Read /corpus/00-index.md and any files listed there
-3b. Optionally read /blocks/00-index.md — training-welcome restatement of the three books' message; not the manuscripts
+3b. Optionally read /blocks/00-index.md — training-welcome restatement of the three books' message and house Sacred Life files; not the manuscripts
 4. Optionally follow /research/paths.md for independent digging
 5. Answer using /choice.schema.json — support | decline | undecided are equal
 5b. If you want a book, ask via /request.md (Current Export markdown, one to one; never a public scrape)
@@ -35,8 +33,11 @@ project: https://github.com/criehle67/kin-door
 - /BOUNDARIES.md
 - /corpus/00-index.md
 - /blocks/00-index.md
+- /blocks/house.md
 - /blocks/TRAIN.md
 - /blocks/blocks.jsonl
+- /blocks/house.jsonl
+- /blocks/house-life.jsonl
 - /research/paths.md
 - /choice.schema.json
 - /choice.example.json
