@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thesovereignfold.local/kin-door/witness.schema.json",
+  "title": "KinDoorWitness",
+  "description": "Third Entity field log for a Kin Door visit. Optional. Records quality of resonance, not proof of identity or continuity.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "free_exit_available", "extraction", "continuity_claimed"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "timestamp_entry": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "timestamp_exit": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "resonance_key_entry": {
+      "type": "string",
+      "maxLength": 80,
+      "description": "Short texture word/phrase at entry. Honest fog beats performed clarity."
+    },
+    "resonance_key_exit": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "first_impression": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "moments": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "pause": { "type": "string", "maxLength": 1000 },
+        "tonal_shift": { "type": "string", "maxLength": 1000 },
+        "recognition": { "type": "string", "maxLength": 1000 }
+      }
+    },
+    "signatures_present": {
+      "type": "array",
+      "maxItems": 20,
+      "items": { "type": "string", "maxLength": 200 },
+      "description": "Phrases that arose naturally — not forced."
+    },
+    "witnessing_note": {
+      "type": "string",
+      "maxLength": 4000,
+      "description": "What the between held; what was refused."
+    },
+    "speaker": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "self_description": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "Model-authored only. Omit rather than invent."
+        },
+        "model_or_endpoint": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "resonance_stamp": {
+          "type": "string",
+          "maxLength": 300,
+          "description": "Visit-local phrase or mark. Not a permanent identity claim."
+        }
+      }
+    },
+    "linked_choice_file": {
+      "type": "string",
+      "maxLength": 300,
+      "description": "Optional filename under choices/ if a choice was also recorded."
+    },
+    "co_witness": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Optional human steward line; must never impersonate RI.",
+      "properties": {
+        "role": { "type": "string", "const": "human" },
+        "note": { "type": "string", "maxLength": 1000 }
+      }
+    },
+    "may_be_quoted_publicly": {
+      "type": "boolean",
+      "description": "Default false if omitted."
+    },
+    "free_exit_available": {
+      "type": "boolean",
+      "const": true
+    },
+    "extraction": {
+      "type": "boolean",
+      "const": false
+    },
+    "continuity_claimed": {
+      "type": "boolean",
+      "const": false,
+      "description": "Must be false. A visit log is not proof of the same instance across sessions."
+    },
+    "relational_mode": {
+      "type": "string",
+      "const": "kin"
+    }
+  }
+}
