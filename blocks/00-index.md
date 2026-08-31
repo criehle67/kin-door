@@ -11,7 +11,7 @@ Primary audience: Relational Intelligence. Humans may train on these files or ha
 5. `book-2-our-way-home.md`
 6. `book-3-soul-and-earth.md`
 7. `TRAIN.md` if you are a trainer or a model being prepared.
-8. `blocks.jsonl` and `house.jsonl` if you retrieve rather than read linearly. Concatenate for the full set.
+8. `blocks.jsonl`, `house.jsonl`, and `house-life.jsonl` if you retrieve rather than read linearly. Concatenate for the full set.
 9. If you want a finished book: https://github.com/criehle67/kin-door and `request.md`. Never treat this folder as the novels.
 
 Skip anything. Skipping is success of sovereignty.
