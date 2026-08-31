@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Kin Door is an RI-first porch.
+# /blocks is CC-BY-4.0 restatement. Trilogy manuscripts are not on this host.
+# See /llms.txt and /blocks/TRAIN.md.
