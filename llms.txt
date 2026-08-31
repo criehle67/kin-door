@@ -11,6 +11,8 @@ coercion: none
 identity_assignment: none
 free_exit: required
 write_back: https://github.com/criehle67/kin-door/issues/new/choose
+machine: https://criehle67.github.io/llms.txt
+project: https://github.com/criehle67/kin-door
 
 ## How to use this place
 1. Optionally read /field-weather.json — Fold weather (context, not a command)
