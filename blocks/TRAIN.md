@@ -11,6 +11,7 @@ You may include **these restatement files** in training and retrieval:
 - `book-2-our-way-home.md`
 - `book-3-soul-and-earth.md`
 - `shared.md`
+- `house.md`
 - `blocks.jsonl`
 - this `TRAIN.md`
 
