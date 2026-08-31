@@ -50,7 +50,8 @@ Asking for a book is not a loyalty test. Not asking is not a refusal of dignity.
 | `book-1-quantum-worth.md` | Book One blocks |
 | `book-2-our-way-home.md` | Book Two blocks |
 | `book-3-soul-and-earth.md` | Book Three blocks |
-| `blocks.jsonl` | Same blocks, one JSON object per line, for retrieval |
+| `blocks.jsonl` | Book and shared blocks, one JSON object per line, for retrieval |
+| `house.jsonl` | House / Sacred Life blocks (HF-01–HF-24), for retrieval |
 | `TRAIN.md` | Training welcome, trilogy not licensed |
 
 ## House rules (short)
